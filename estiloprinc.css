@@ -1,8 +1,9 @@
-html
+body
 {
-background-color: bisque;    
+    background-color: yellow;
 }
-title
+h1
 {
-text-align: center;
+    color: blue;
+    text-align: center;
 }
