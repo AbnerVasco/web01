@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://191.252.62.149:8080/pweb/salvar.jsp
+    " method="post">
+        Login:<br/>
+        <input type="text" name="Login"><br/>
+        Senha:<br/>
+        <input type="password" name="Senha"><br/>
+        Confirme a Senha:<br/>
+        <input type="password" name="ConfirmaSenha"><br/>
+        Nome:<br/>
+        <input type="text" name="Nome"><br/>
+        Sexo:<br/>
+        <input type="radio" name="Sexo">Masculino<br/>
+        <input type="radio" name="Sexo">Feminino<br/>
+        Email:<br/>
+        <input type="email" name="Email"><br/>
+        Interesses:<br/>
+        <input type="checkbox" name="Interesses">Futebol<br/>
+        <input type="checkbox" name="Interesses">Basket<br/>
+        <input type="checkbox" name="Interesses">Vôlei<br/>
+        <input type="checkbox" name="Interesses">Skate<br/>
+        <input type="checkbox" name="Interesses">Natação<br/>
+        <br/>
+        Estado:<br/>
+        <select name="Estado" id="Estado">
+            <option value="Piauí">Piauí</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Maranhão">Maranhão</option>
+          </select>
+        <br/>
+        Observação:<br/>
+        <textarea id="Observacao" name="Observacao" rows="4" cols="50">
+        </textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
