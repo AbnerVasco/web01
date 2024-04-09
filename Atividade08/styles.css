@@ -1,0 +1,38 @@
+.noticia{
+    font-family: "opensans-regular",Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 24px;
+    margin: 20px;
+    float:left;
+}
+.noticia h1{
+    color: #c4170c;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+.noticia p{
+    clear: both;
+}
+
+/*.container{
+    display: flex;
+}*/
+.imagem{
+    float: none;
+    width: 200px;
+    padding: 10px;
+}
+body{
+    background-color: #d6d6d6;
+}
+#noticia_p6{
+    background-color: #d6d6d6;
+    clear: both;
+    border-radius: 0%;
+
+}
