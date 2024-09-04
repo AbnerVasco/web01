@@ -1,0 +1,29 @@
+body{
+
+.menu{
+    background-color: #eee685;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 18 px;
+    padding: 10 px;
+}
+a:link{/*não visitados*/
+    color: #b9c941;
+    text-decoration: none;
+}
+a:visited{/*visitados*/
+    color: #458800;
+}
+a:hover{/*passar o mouse*/
+    color: #8b4726;
+    transition: background-color 0.3s ease;
+    background-color: aqua;
+}
+a:link{/* não visitados*/
+    color: #ff1493;
+}
+}
+
+
+
+
+
