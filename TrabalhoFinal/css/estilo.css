@@ -1,0 +1,47 @@
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background-color: #008B8B;
+    margin-top: 200px;
+}
+footer p{
+    font-weight: bold;
+}
+.redes-sociais {
+    text-align: right; /* Alinha o texto à direita */
+}
+/*Imagem dos professores*/
+.imagePadrao{
+  width: 150px;  
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+/*cor de fundo do site e cor das letras*/
+body {
+    background-color: #7FFFD4; 
+    color: #333; 
+}
+body.sobrecurso {
+    background-color: #7FFFD4;
+}
+.perfil{
+        border: none;
+        background-color:#7FFFD4;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+}
+/*Destaque para "Licenciatura em computação"*/
+.navbar-brand {
+    font-family: 'Protest Guerrilla', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #008B8B; 
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s; 
+  }
+
+
